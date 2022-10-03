@@ -1,0 +1,130 @@
+* {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    position: right;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background-color: black;
+    border: solid;
+    color: white;
+
+}
+
+#hero-image {
+    display: flex;
+    max-height: 1000px;
+    padding-bottom: 1%;
+    padding-left: 9%;
+    
+}
+
+.hero-text {
+    color: white;
+    justify-content: left;
+    text-align: left;
+}
+
+.social-media {
+
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+.social-media {
+    transform: rotate(-90deg);
+    transform-origin: left;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9%;
+    width: 3px;
+    background: white
+}
+
+.sadhguru-bio-image {
+    display: block;
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.Isha-link {
+    font-size: 24px;
+
+}
+
+span {
+    color: orange;
+    font-size: 32px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .features img {
+    height: 200px;
+    width: 66%;
+    margin: 10px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: ;
+  }
+
+  #first-div-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: 5vh;
+}
